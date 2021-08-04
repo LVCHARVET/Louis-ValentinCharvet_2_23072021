@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a295235695.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
     </head>
 
@@ -13,31 +14,48 @@
         
         <header>
 
+            <div id="tête">
+
             <!--Logo-->
+            
+                <img src="images/logo/Reservia.svg" alt="Logo">
 
-            <img src="images/logo/Reservia.svg" alt="Logo">
-
-            <!--Menu de Navigation-->
-
-            <nav>
-                <ul>
-                    <li>Hébergements</li>
-                    <li>Activités</li>
-                    <li>S'inscrire</li>
-                </ul>
-            </nav>
+                <!--Menu de Navigation-->
+                
+                <nav>
+                    <ul>
+                        <li><a href="#Hébergements">Hébergements</a></li>
+                        <li><a href="#Activités">Activités</a></li>
+                        <li>S'inscrire</li>
+                    </ul>
+                </nav>            
+            </div>
 
             <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
             <p>En plein centre ville ou en pleine nature</p>
 
-            <!--Formulaire de recherche-->
+            <!--Formulaire de recherche-->            
 
             <form action="">
+                <i class="fas fa-map-marker-alt"></i>
                 <input type="search" name="Ville, Pays" value="Marseille, France">
                 <button type="submit">Rechercher</button>
             </form>
 
-            <!--filtres-->            
+            <!--filtres-->  
+            <div id="filtres">  
+
+                <p>Filtres</p>
+
+                <i class="fas fa-money-bill-wave"> Économique</i>
+                
+                <i class="fas fa-child"> Familiale</i>
+
+                <i class="fas fa-heart"> Romantique</i>
+
+                <i class="fas fa-dog"> Animeaux autorisés</i>
+
+            </div> 
 
         </header>
 
@@ -45,14 +63,14 @@
 
             <!--Hébergement à Marseille-->
 
-            <h3>Hébergements à Marseille</h3>
+            <h3 id="Hébergements">Hébergements à Marseille</h3>
 
-            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt=" Auberge la Cannebière">
-            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
-            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
-            <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
-            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
-            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
+            <a href=""><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière"></a>
+            <a href=""><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port"></a>
+            <a href=""><img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes"></a>
+            <a href=""><img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer"></a>
+            <a href=""><img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier"></a>
+            <a href=""><img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina"></a>
 
         </section>
 
@@ -62,9 +80,9 @@
 
             <h3>Les plus populaires</h3>
 
-            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
-            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
-            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc">
+            <a href=""><img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin"></a>
+            <a href=""><img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"></a>
+            <a href=""><img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"></a>
 
         </section>
 
@@ -72,14 +90,14 @@
 
             <!--Activité a Masreille-->
 
-            <h3>Activités à Marseille</h3>
+            <h3 id="Activités">Activités à Marseille</h3>
 
-            <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
-            <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
-            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
-            <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
-            <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">   
-            <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+            <a href=""><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"></a>
+            <a href=""><img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"></a>
+            <a href=""><img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul"></a>
+            <a href=""><img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"></a>
+            <a href=""><img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"></a>
+            <a href=""><img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"></a>
 
         </section>
         
