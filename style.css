@@ -18,3 +18,122 @@ nav ul
     list-style-type: none;
     display: flex;
 }
+
+/*Formulaire*/
+
+form
+{
+    height: 35px;
+    display: flex;
+}
+
+input
+{
+    border: none;
+    font-weight: bold;
+}
+
+form .fas
+{
+    background-color:  #F2F2F2;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+button
+{
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*Filtres*/
+
+#filtres
+{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 20px;
+}
+
+#filtres p
+{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#filtres .fas
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+
+#Eco
+{
+    display: flex;
+    border: solid #F2F2F2 1px;
+    border-radius: 40px;
+    height: 40px;
+    width: 160px;
+}
+
+#Fam
+{
+    display: flex;
+    border: solid #F2F2F2 1px;
+    border-radius: 40px;
+    height: 40px;
+    width: 125px;
+}
+
+#Rom
+{
+    display: flex;
+    border: solid #F2F2F2 1px;
+    border-radius: 40px;
+    height: 40px;
+    width: 160px;
+}
+
+#Anim
+{
+    display: flex;
+    border: solid #F2F2F2 1px;
+    border-radius: 40px;
+    height: 40px;
+    width: 205px;
+}
+
+/*liens*/
+
+a:link 
+{
+    text-decoration:none;    
+}
+
+a
+{
+    color: black;
+}
+
+a:hover
+{
+    color: blue;
+}
