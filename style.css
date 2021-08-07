@@ -19,6 +19,17 @@ nav ul
     display: flex;
 }
 
+nav li
+{
+    margin: 20px;
+}
+
+#inscrire
+{
+    font-weight: bold;
+    color: #0065FC;
+}
+
 /*Formulaire*/
 
 form
@@ -62,6 +73,7 @@ button
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 60%;
     margin-top: 20px;
 }
@@ -121,6 +133,33 @@ button
     width: 205px;
 }
 
+/*Informations*/
+
+#info
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#info .fas
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    border: #F2F2F2 solid 1px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+#info p
+{
+    margin: 10px;
+}
+
+
 /*liens*/
 
 a:link 
@@ -135,5 +174,12 @@ a
 
 a:hover
 {
-    color: blue;
+    color: #0065FC;
+    font-weight: bold;
+}
+
+nav a:hover
+{
+    border-top: solid #0065FC 5px;
+    padding-top: 40px;
 }
