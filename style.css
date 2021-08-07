@@ -159,6 +159,29 @@ button
     margin: 10px;
 }
 
+/*Body*/
+
+#heb
+{
+    display: flex;
+    align-items: center;
+    background: #F2F2F2;
+}
+
+.slot
+{
+    width: 100px;
+    height: 100px;
+    border: #0065FC solid 1px;
+}
+
+#heb img
+{
+    max-width: 200px;
+    height: auto;
+    justify-content: center;
+}
+
 
 /*liens*/
 
