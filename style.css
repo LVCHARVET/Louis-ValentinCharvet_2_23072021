@@ -2,10 +2,17 @@
 
 *
 {
-    font-family: 'Raleway', sans-serif;
-    
+    font-family: 'Raleway', sans-serif;    
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
 }
+
+#main
+{
+    margin: 0 50px 50px;
+}
+
 
 /* Entête */
 
@@ -171,34 +178,32 @@ button
 
 /*Hébergements à Marseille*/
 
-h3, p
-{
-    margin: 10px;   
-}
+
 
 #heb
 {   
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 20px;    
+    padding: 40px;    
     width: 65%;   
 }
 
 #allslot
 {
     display: flex;    
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
+    margin: 30px 0 20px;   
+    justify-content: space-between;
 }
 
 #slot1
 {
-    width: 250px;
+    width: 30%;
     height: 200px;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 #slot1 a
@@ -206,7 +211,7 @@ h3, p
     display: block;
     width: 100%;
     height: 60%;
-    background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
     background-position: center;
     border-top-left-radius: 10px;
@@ -224,12 +229,12 @@ h3, p
 
 #slot2
 {
-    width: 250px;
+    width: 30%;
     height: 200px;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 #slot2 a
@@ -255,12 +260,12 @@ h3, p
 
 #slot3
 {
-    width: 250px;
+    width: 30%;
     height: 200px;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 #slot3 a
@@ -286,12 +291,12 @@ h3, p
 
 #slot4
 {
-    width: 250px;
+    width: 30%;
     height: 200px;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 #slot4 a
@@ -318,12 +323,12 @@ h3, p
 
 #slot5
 {
-    width: 250px;
+    width: 30%;
     height: 200px;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 #slot5 a
@@ -349,12 +354,12 @@ h3, p
 
 #slot6
 {
-    width: 250px;
+    width: 30%;
     height: 200px;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 #slot6 a
@@ -385,29 +390,30 @@ h3, p
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 #poptitle .fas
 {
-    margin: 20px;
+
 }
 
 #pop
 {
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px;
     width: 33%;
 }
 
 #slot7
 {
-    width: 350px;
+    width: 100%;
     height: 150px;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 0;
     display: flex;
 }
 
@@ -442,12 +448,12 @@ h3, p
 
 #slot8
 {
-    width: 350px;
+    width: 100%;
     height: 150px;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 0;
     display: flex;
 }
 
@@ -483,12 +489,12 @@ h3, p
 
 #slot9
 {
-    width: 350px;
+    width: 100%;
     height: 150px;
     background-color: white;
     border: 3px solid white;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 0;
     display: flex;
 }
 
@@ -521,6 +527,248 @@ h3, p
     font-size: 13px;     
 }
 
+/*Activités a Marseille*/
+
+#act
+{
+    background-color: white;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#actblock
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#slot10
+{
+    width: 22%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 1px;    
+}
+
+#slot10 a
+{
+    display: block;
+    width: 100%;
+    height: 90%;
+    background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#slot10 p
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#duoslot
+{
+    width: 22%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;       
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#slot11
+{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 1px;    
+}
+
+#slot11 a
+{
+    display: block;
+    width: 100%;
+    height: 84%;
+    background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#slot11 p
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#slot12
+{
+    width: 100%;
+    height: 35%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 1px;    
+}
+
+#slot12 a
+{
+    display: block;
+    width: 100%;
+    height: 70%;
+    background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#slot12 p
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#slot13
+{
+    width: 22%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 1px;    
+}
+
+#slot13 a
+{
+    display: block;
+    width: 100%;
+    height: 90%;
+    background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#slot13 p
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#duoslot2
+{
+    width: 22%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#slot14
+{
+    width: 100%;
+    height: 47.5%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 1px;    
+}
+
+#slot14 a
+{
+    display: block;
+    width: 100%;
+    height: 77.5%;
+    background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#slot14 p
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#slot15
+{
+    width: 100%;
+    height: 47.5%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 1px;    
+}
+
+#slot15 a
+{
+    display: block;
+    width: 100%;
+    height: 77.5%;
+    background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#slot15 p
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*footer*/
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    padding: 40px 50px 40px;
+}
+
+footer h4
+{
+    margin-bottom: 20px;
+}
+
+footer li
+{
+    margin-bottom: 15px;
+}
+
+#prop, #heberg, #assist
+{
+    flex: 1;
+}
+
+ul
+{
+    list-style-type: none;
+}
 
 /*Stars*/
 
@@ -554,6 +802,6 @@ a:hover
 
 nav a:hover
 {
-    border-top: solid #0065FC 5px;
-    padding-top: 40px;
+    border-top: solid #0065FC 2px;
+    padding-top: 18px;
 }
