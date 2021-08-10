@@ -5,12 +5,19 @@
     font-family: 'Raleway', sans-serif;    
     box-sizing: border-box;
     margin: 0;
-    padding: 0;    
+    padding: 0;   
+    font-size: 20px; 
 }
+
+p
+{
+    font-size: 15px;
+}
+
 
 #main
 {
-    margin: 0 50px 50px;
+    margin: 0px 50px 50px;
 }
 
 
@@ -20,6 +27,7 @@
 {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0 10px;
 }
 
 nav ul
@@ -43,14 +51,16 @@ nav li
 
 form
 {
-    height: 35px;
+    height: 40px;
     display: flex;
+    margin: 20px 0 20px;
 }
 
 input
 {
     border: none;
     font-weight: bold;
+    font-size: 15px;
 }
 
 form .fas
@@ -62,6 +72,7 @@ form .fas
     justify-content: center;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    font-size: 15px;
 }
 
 button
@@ -69,11 +80,13 @@ button
     background-color: #0065FC;
     color: white;
     font-weight: bold;
+    font-size: 15px;
     padding-right: 15px;
     padding-left: 15px;
     border: none;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    width: auto;
 }
 
 /*Filtres*/
@@ -174,6 +187,7 @@ button
 {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 /*Hébergements à Marseille*/
@@ -185,7 +199,7 @@ button
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 40px;    
-    width: 65%;   
+    width: 65%;
 }
 
 #allslot
@@ -218,12 +232,13 @@ button
     border-top-right-radius: 10px;
 }
 
-#slot1 p
+#text1 
 {
     text-align: justify;
     width: 100%;
+    height: 40%;
     margin: 8px;
-    font-size: 13px;
+    font-size: 15px;
     justify-content: space-around;
 }
 
@@ -249,10 +264,11 @@ button
     border-top-right-radius: 10px;
 }
 
-#slot2 p
+#text2 
 {
     text-align: justify;
     width: 100%;
+    height: 40%;
     margin: 8px;
     font-size: 13px;
     justify-content: space-around;
@@ -280,10 +296,11 @@ button
     border-top-right-radius: 10px;
 }
 
-#slot3 p
+#text3
 {
     text-align: justify;
     width: 100%;
+    height: 40%;
     margin: 8px;
     font-size: 13px;
     justify-content: space-around;
@@ -311,10 +328,11 @@ button
     border-top-right-radius: 10px;
 }
 
-#slot4 p
+#text4 
 {
     text-align: justify;
     width: 100%;
+    height: 40%;
     margin: 8px;
     font-size: 13px;
     justify-content: space-around;
@@ -343,12 +361,13 @@ button
     border-top-right-radius: 10px;
 }
 
-#slot5 p
+#text5
 {
     text-align: justify;
     width: 100%;
+    height: 40%;
     margin: 8px;
-    font-size: 13px;
+    font-size: 12px;
     justify-content: space-around;
 }
 
@@ -374,14 +393,16 @@ button
     border-top-right-radius: 10px;
 }
 
-#slot6 p
+#text6 
 {
     text-align: justify;
     width: 100%;
+    height: 40%;
     margin: 8px;
-    font-size: 13px;
+    font-size: 14px;
     justify-content: space-around;
 }
+
 
 /*Les plus populaires*/
 
@@ -391,11 +412,6 @@ button
     align-items: center;
     justify-content: space-between;
     margin-bottom: 25px;
-}
-
-#poptitle .fas
-{
-
 }
 
 #pop
@@ -431,20 +447,21 @@ button
 
 #text7
 {
-    width: 55%;
+    width: 60%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     margin: 8px;
+    
 }
 
-#slot7 p
+#slot7
 {    
     width: 85%;
     margin: 4px;
-    padding: 10px;
     font-size: 13px;     
 }
+
 
 #slot8
 {
@@ -473,16 +490,16 @@ button
 {
     width: 60%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     margin: 8px;
+    
 }
 
-#slot8 p
+#slot8 
 {    
     width: 85%;
     margin: 4px;
-    padding: 10px;
     font-size: 13px;     
 }
 
@@ -519,11 +536,10 @@ button
     margin: 8px;
 }
 
-#slot9 p
+#slot9
 {    
     width: 85%;
-    margin: 4px;
-    padding: 10px;
+    margin: 4px;    
     font-size: 13px;     
 }
 
@@ -775,11 +791,13 @@ ul
 #blue
 {
     color: #0065FC;
+    font-size: 15px;
 }
 
 #grey
 {
     color: #F2F2F2;
+    font-size: 15px;
 }
 
 /*liens*/
@@ -794,7 +812,7 @@ a
     color: black;
 }
 
-a:hover
+a:hover 
 {
     color: #0065FC;
     font-weight: bold;
@@ -803,5 +821,5 @@ a:hover
 nav a:hover
 {
     border-top: solid #0065FC 2px;
-    padding-top: 18px;
+
 }
