@@ -31,63 +31,68 @@
             <p id="inscrire">S'inscrire</p>
           </nav>
         </div>
+        <div class="page">
+          <h3 id="trouvez">
+            Trouvez votre h&eacute;bergement pour des vacances de rêve
+          </h3>
+          <p>En plein centre ville ou en pleine nature</p>
 
-        <h3 id="trouvez">
-          Trouvez votre h&eacute;bergement pour des vacances de rêve
-        </h3>
-        <p>En plein centre ville ou en pleine nature</p>
+          <!--Formulaire de recherche-->
 
-        <!--Formulaire de recherche-->
+          <form action="submit">
+            <i class="fas fa-map-marker-alt mark"></i>
+            <input type="search" name="Ville, Pays" value="Marseille, France" />
+            <button class="recher" type="submit">Rechercher</button>
+            <button class="search" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
 
-        <form action="submit">
-          <i class="fas fa-map-marker-alt"></i>
-          <input type="search" name="Ville, Pays" value="Marseille, France" />
-          <button type="submit">Rechercher</button>
-        </form>
+          <!--filtres-->
+          <div id="filtres">
+            <p class="filtertitle">Filtres</p>
+            <div class="filterbutton">
+              <a href=""
+                ><div id="Eco">
+                  <i class="fas fa-money-bill-wave"></i>
+                  <p>&Eacute;conomique</p>
+                </div></a
+              >
 
-        <!--filtres-->
-        <div id="filtres">
-          <p>Filtres</p>
+              <a href=""
+                ><div id="Fam">
+                  <i class="fas fa-child"></i>
+                  <p>Familial</p>
+                </div></a
+              >
 
-          <a href=""
-            ><div id="Eco">
-              <i class="fas fa-money-bill-wave"></i>
-              <p>&Eacute;conomique</p>
-            </div></a
-          >
+              <a href=""
+                ><div id="Rom">
+                  <i class="fas fa-heart"></i>
+                  <p>Romantique</p>
+                </div></a
+              >
 
-          <a href=""
-            ><div id="Fam">
-              <i class="fas fa-child"></i>
-              <p>Familial</p>
-            </div></a
-          >
-
-          <a href=""
-            ><div id="Rom">
-              <i class="fas fa-heart"></i>
-              <p>Romantique</p>
-            </div></a
-          >
-
-          <a href=""
-            ><div id="Anim">
-              <i class="fas fa-dog"></i>
-              <p>Animaux autoris&eacute;s</p>
-            </div></a
-          >
+              <a href=""
+                ><div id="Anim">
+                  <i class="fas fa-dog"></i>
+                  <p>Animaux autoris&eacute;s</p>
+                </div></a
+              >
+            </div>
+          </div>
         </div>
-
         <!--info-->
+        <div class="page">
+          <div id="info">
+            <i class="fas fa-info ibutton"></i>
 
-        <div id="info">
-          <i class="fas fa-info"></i>
-
-          <p>Plus de 500 logements sont disponnibles dans cette ville</p>
+            <p>Plus de 500 logements sont disponnibles dans cette ville</p>
+          </div>
         </div>
       </header>
 
-      <div id="hebpop">
+      <div id="hebpop" >
         <section id="heb">
           <!--H&eacute;bergement à Marseille-->
 
@@ -303,7 +308,6 @@
         </div>
       </section>
     </div>
-
     <footer>
       <!--A propos-->
 

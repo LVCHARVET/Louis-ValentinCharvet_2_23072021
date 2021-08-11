@@ -67,7 +67,7 @@ input {
   font-size: 15px;
 }
 
-form .fas {
+form .mark {
   background-color: #f2f2f2;
   width: 40px;
   display: flex;
@@ -88,8 +88,13 @@ button {
   border: none;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-  width: auto;
+  width: auto;  
 }
+
+.search {
+  display: none;
+}
+
 
 /*Filtres*/
 
@@ -158,7 +163,7 @@ button {
   margin-top: 20px;
 }
 
-#info .fas {
+.ibutton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -756,7 +761,7 @@ nav li:hover {
   border-top: solid #0065fc 2px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
   #main {
     margin: 0;
   }
@@ -764,22 +769,213 @@ nav li:hover {
     flex-wrap: wrap;
   }
 
+  #tête img {
+    margin-left: 20px;
+  }
+
   #inscrire {
     position: absolute;
-    right: 5%;
+    right: 3%;
     top: 0%;
   }
 
-  nav {
-    flex-flow: row-reverse;
-  }
-
+ 
   #filtres {
     flex-wrap: wrap;
   }
 
-  nav a:hover {
+  nav li:hover {
     border-bottom: solid #0065fc 2px;
     border-top: none;
   }
+
+  .page {
+    margin: 0 20px 0 20px;
+  }
+
+  .recher {
+    display: none;
+  }
+  
+  .search {
+    display: block;
+    border-radius: 15px;
+  }
+
+  #filtres {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;      
+  }
+
+  .filterbutton  {
+    margin-top: 10px;
+  }
+
+  #Rom, #Anim {
+    margin-top: 10px;
+  }
+  
+  #Fam {
+    position: absolute;
+    top: 48%;
+    right: 12%;
+  }
+
+  .ibutton {
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 50%;
+    width: 11%;
+  }
+
+  #hebpop {
+    display: flex;
+    flex-direction: column-reverse;  
+  }
+
+  #pop {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0%;
+  }
+  
+  #heb {
+    width: 100%;
+    background-color: white;
+    border-radius: 0%;
+    padding: 20px; 
+  }
+
+  #allslot
+  {
+    flex-direction: column;
+  }
+
+  #slot1 {
+    width: 100%;
+    height: 200px;    
+    box-shadow: 1px 1px 1px 1px;
+  }
+
+  #slot1 a {
+    height: 60%;
+  }
+
+  #slot2 {
+    width: 100%;
+    height: 200px;    
+    box-shadow: 1px 1px 1px 1px;
+  }
+
+  #slot2 a {
+    height: 60%;
+  }
+ 
+  #slot3 {
+    width: 100%;
+    height: 200px;    
+    box-shadow: 1px 1px 1px 1px;
+  }
+
+  #slot3 a {
+    height: 60%;
+  }
+  
+  #slot4 {
+    width: 100%;
+    height: 200px;    
+    box-shadow: 1px 1px 1px 1px;
+  }
+
+  #slot4 a {
+    height: 60%;
+  }
+  
+  #slot5 {
+    width: 100%;
+    height: 200px;    
+    box-shadow: 1px 1px 1px 1px;
+  }
+
+  #slot5 a {
+    height: 60%;
+  }
+
+  #slot6 {
+    width: 100%;
+    height: 200px;    
+    box-shadow: 1px 1px 1px 1px;
+  }
+
+  #slot6 a {
+    height: 60%;
+  }
+
+  #act {
+   padding: 20px;
+  }
+  
+  #actblock {
+    flex-direction: column;
+  }
+
+  #slot10 {
+    width: 100%;
+    height: 200px;    
+    box-shadow: 1px 1px 1px 1px;
+  }
+
+  #slot10 a {
+    height: 70%;
+  }
+
+  #slot10 p {
+    margin-left: 10px;
+    height: 100%;
+    margin-top: 4%;
+  }
+
+  #duoslot {
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+  }
+
+  #slot11 {
+    height: 200px;  
+    box-shadow: 1px 1px 1px 1px;  
+  }
+
+  #slot11 a {
+    height: 70%;
+  }
+  
+  #slot11 p {
+    margin-left: 10px;
+    height: 100%;
+    margin-top: 4%;
+  }
+
+  #slot12 {
+    height: 200px;  
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 20px;  
+  }
+
+  #slot12 a {
+    height: 70%;
+  }
+  
+  #slot12 p {
+    margin-left: 10px;
+    height: 100%;
+    margin-top: 4%;
+  }
+
+  footer {
+    display: none;
+  }
+
 }
