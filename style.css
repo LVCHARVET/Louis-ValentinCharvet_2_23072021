@@ -21,7 +21,7 @@ p {
 #tête {
   display: flex;
   justify-content: space-between;
-  margin: 10px 0 10px;
+  margin: 0 0 10px;
 }
 
 nav {
@@ -100,7 +100,7 @@ button {
 
 #filtres {
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
   width: 60%;
   margin-top: 20px;
@@ -111,6 +111,11 @@ button {
   align-items: center;
   margin-left: 10px;
   font-weight: bold;
+}
+
+.filterbutton {
+  display: flex;
+  margin-left: 20px;
 }
 
 #filtres .fas {
@@ -128,7 +133,7 @@ button {
   border: solid #f2f2f2 1px;
   border-radius: 40px;
   height: 40px;
-  width: 160px;
+  width: 160px;  
 }
 
 #Fam {
@@ -137,6 +142,7 @@ button {
   border-radius: 40px;
   height: 40px;
   width: 125px;
+  margin-left: 20px;
 }
 
 #Rom {
@@ -145,6 +151,7 @@ button {
   border-radius: 40px;
   height: 40px;
   width: 160px;
+  margin-left: 20px;s
 }
 
 #Anim {
@@ -153,6 +160,7 @@ button {
   border-radius: 40px;
   height: 40px;
   width: 205px;
+  margin-left: 20px;
 }
 
 /*Informations*/
@@ -758,7 +766,7 @@ a:hover {
 }
 
 nav li:hover {
-  border-top: solid #0065fc 2px;
+  border-top: solid #0065fc 3px;
 }
 
 @media screen and (max-width: 375px) {
@@ -775,14 +783,28 @@ nav li:hover {
 
   #inscrire {
     position: absolute;
-    right: 3%;
+    right: 2%;
     top: 0%;
+    font-size: 18px;
   }
 
- 
-  #filtres {
-    flex-wrap: wrap;
+  nav li {
+    width: 186.5px;
   }
+
+  nav a {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .navact {
+    margin-left: 40px;
+  }
+  
+ 
+  
+
+  
 
   nav li:hover {
     border-bottom: solid #0065fc 2px;
@@ -804,21 +826,24 @@ nav li:hover {
 
   #filtres {
     width: 100%;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;      
   }
 
   .filterbutton  {
     margin-top: 10px;
+    flex-direction: column;
   }
 
   #Rom, #Anim {
     margin-top: 10px;
+    margin-left: 0px;
   }
   
   #Fam {
     position: absolute;
-    top: 48%;
+    top: 47%;
     right: 12%;
   }
 
@@ -974,8 +999,63 @@ nav li:hover {
     margin-top: 4%;
   }
 
-  footer {
-    display: none;
+  #slot13 {
+    width: 100%;
+    height: 200px;    
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 20px;
   }
 
+  #slot13 a {
+    height: 70%;
+  }
+
+  #slot13 p {
+    margin-left: 10px;
+    height: 100%;
+    margin-top: 4%;
+  }
+
+  #duoslot2 {
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+  }
+
+  #slot14 {
+    height: 200px;  
+    box-shadow: 1px 1px 1px 1px;  
+  }
+
+  #slot14 a {
+    height: 70%;
+  }
+  
+  #slot14 p {
+    margin-left: 10px;
+    height: 100%;
+    margin-top: 4%;
+  }
+
+  #slot15 {
+    height: 200px;  
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 20px;  
+  }
+
+  #slot15 a {
+    height: 70%;
+  }
+  
+  #slot15 p {
+    margin-left: 10px;
+    height: 100%;
+    margin-top: 4%;
+  }
+
+  footer {
+    display: block;
+    padding: 50px 0 50px;
+    padding-left: 5%;    
+  }
 }
