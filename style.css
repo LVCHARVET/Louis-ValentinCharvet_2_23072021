@@ -56,7 +56,7 @@ nav li {
 /*Formulaire*/
 
 form {
-  height: 40px;
+  height: 50px;
   display: flex;
   margin: 20px 0 20px;
 }
@@ -64,12 +64,14 @@ form {
 input {
   border: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
+  width: 17%;
+  padding-left: 2%;
 }
 
 form .mark {
   background-color: #f2f2f2;
-  width: 40px;
+  width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,13 +84,13 @@ button {
   background-color: #0065fc;
   color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   padding-right: 15px;
   padding-left: 15px;
   border: none;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-  width: auto;  
+  width: 11%;  
 }
 
 .search {
@@ -125,40 +127,40 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
+  width: 50px;
 }
 
 #Eco {
   display: flex;
   border: solid #f2f2f2 1px;
-  border-radius: 40px;
-  height: 40px;
+  border-radius: 50px;
+  height: 50px;
   width: 160px;  
 }
 
 #Fam {
   display: flex;
   border: solid #f2f2f2 1px;
-  border-radius: 40px;
-  height: 40px;
-  width: 125px;
+  border-radius: 50px;
+  height: 50px;
+  width: 130px;
   margin-left: 20px;
 }
 
 #Rom {
   display: flex;
   border: solid #f2f2f2 1px;
-  border-radius: 40px;
-  height: 40px;
+  border-radius: 50px;
+  height: 50px;
   width: 160px;
-  margin-left: 20px;s
+  margin-left: 20px;
 }
 
 #Anim {
   display: flex;
   border: solid #f2f2f2 1px;
-  border-radius: 40px;
-  height: 40px;
+  border-radius: 50px;
+  height: 50px;
   width: 205px;
   margin-left: 20px;
 }
@@ -266,7 +268,7 @@ button {
   width: 100%;
   height: 40%;
   margin: 8px;
-  font-size: 13px;
+  font-size: 15px;
   justify-content: space-around;
 }
 
@@ -296,7 +298,7 @@ button {
   width: 100%;
   height: 40%;
   margin: 8px;
-  font-size: 13px;
+  font-size: 15px;
   justify-content: space-around;
 }
 
@@ -326,7 +328,7 @@ button {
   width: 100%;
   height: 40%;
   margin: 8px;
-  font-size: 13px;
+  font-size: 15px;
   justify-content: space-around;
 }
 
@@ -356,7 +358,7 @@ button {
   width: 100%;
   height: 40%;
   margin: 8px;
-  font-size: 12px;
+  font-size: 15px;
   justify-content: space-around;
 }
 
@@ -386,7 +388,7 @@ button {
   width: 100%;
   height: 40%;
   margin: 8px;
-  font-size: 12px;
+  font-size: 15px;
   justify-content: space-around;
 }
 
@@ -432,16 +434,23 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 8px;
+  margin: 10px;
 }
 
 #slot7 p,
 #slot7 strong {
-  text-align: justify;
-  width: 85%;
+  text-align: justify;  
   height: 40%;
-  font-size: 12px;
+  font-size: 15px;
   justify-content: space-around;
+}
+
+#slot7 p {
+  margin-top: 5px;
+}
+
+.textpop {
+  width: 80%;
 }
 
 #slot8 {
@@ -470,17 +479,20 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 8px;
+  margin: 10px;
 }
 
 #slot8 p,
 #slot8 strong {
-  text-align: justify;
-  width: 85%;
   height: 40%;
-  font-size: 12px;
-  justify-content: space-around;
+  font-size: 15px;  
 }
+
+#slot8 p {
+  margin-top: 5px;
+}
+
+
 
 #slot9 {
   width: 100%;
@@ -506,20 +518,22 @@ button {
 #text9 {
   width: 60%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
   margin: 8px;
 }
 
 #slot9 p,
 #slot9 strong {
-  text-align: justify;
-  width: 85%;
+  
   height: 40%;
-  font-size: 12px;
-  justify-content: space-around;
+  font-size: 15px;
+  
 }
 
+#slot9 p {
+  margin-top: 5px;
+}
 /*Activités a Marseille*/
 
 #act {
@@ -557,8 +571,8 @@ button {
 
 #slot10 p {
   width: 100%;
-  padding: 10px;
-  font-size: 13px;
+  padding: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -593,8 +607,8 @@ button {
 
 #slot11 p {
   width: 100%;
-  padding: 10px;
-  font-size: 13px;
+  padding: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -619,8 +633,8 @@ button {
 
 #slot12 p {
   width: 100%;
-  padding: 10px;
-  font-size: 13px;
+  padding: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -645,8 +659,8 @@ button {
 
 #slot13 p {
   width: 100%;
-  padding: 10px;
-  font-size: 13px;
+  padding: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -681,8 +695,8 @@ button {
 
 #slot14 p {
   width: 100%;
-  padding: 10px;
-  font-size: 13px;
+  padding: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -707,8 +721,8 @@ button {
 
 #slot15 p {
   width: 100%;
-  padding: 10px;
-  font-size: 13px;
+  padding: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
