@@ -37,9 +37,6 @@ nav li {
   padding: 20px;
 }
 
-
-
-
 #inscrire {
   font-weight: bold;
   color: #0065fc;
@@ -56,7 +53,7 @@ nav li {
 /*Formulaire*/
 
 form {
-  height: 50px;
+  height: 45px;
   display: flex;
   margin: 20px 0 20px;
 }
@@ -64,9 +61,9 @@ form {
 input {
   border: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 17px;
   width: 17%;
-  padding-left: 2%;
+  padding-left: 1.5%;
 }
 
 form .mark {
@@ -84,25 +81,24 @@ button {
   background-color: #0065fc;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   padding-right: 15px;
   padding-left: 15px;
   border: none;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 11%;  
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 10%;
 }
 
 .search {
   display: none;
 }
 
-
 /*Filtres*/
 
 #filtres {
   display: flex;
-  
+
   align-items: center;
   width: 60%;
   margin-top: 20px;
@@ -135,7 +131,7 @@ button {
   border: solid #f2f2f2 1px;
   border-radius: 50px;
   height: 50px;
-  width: 160px;  
+  width: 160px;
 }
 
 #Fam {
@@ -439,7 +435,7 @@ button {
 
 #slot7 p,
 #slot7 strong {
-  text-align: justify;  
+  text-align: justify;
   height: 40%;
   font-size: 15px;
   justify-content: space-around;
@@ -485,14 +481,12 @@ button {
 #slot8 p,
 #slot8 strong {
   height: 40%;
-  font-size: 15px;  
+  font-size: 15px;
 }
 
 #slot8 p {
   margin-top: 5px;
 }
-
-
 
 #slot9 {
   width: 100%;
@@ -525,10 +519,8 @@ button {
 
 #slot9 p,
 #slot9 strong {
-  
   height: 40%;
   font-size: 15px;
-  
 }
 
 #slot9 p {
@@ -789,6 +781,7 @@ nav li:hover {
   }
   #tête {
     flex-wrap: wrap;
+    margin-top: 20px;
   }
 
   #tête img {
@@ -798,12 +791,13 @@ nav li:hover {
   #inscrire {
     position: absolute;
     right: 2%;
-    top: 0%;
+    top: 2%;
     font-size: 18px;
   }
 
   nav li {
     width: 186.5px;
+    margin: 10px 0 10px;
   }
 
   nav a {
@@ -814,11 +808,6 @@ nav li:hover {
   .navact {
     margin-left: 40px;
   }
-  
- 
-  
-
-  
 
   nav li:hover {
     border-bottom: solid #0065fc 2px;
@@ -832,33 +821,45 @@ nav li:hover {
   .recher {
     display: none;
   }
-  
+
   .search {
     display: block;
     border-radius: 15px;
+    width: 15%;
+  }
+
+  form {
+    margin: 30px 0 30px;
+  }
+
+  input {
+    width: 70%;
+    padding-left: 5%;
   }
 
   #filtres {
     width: 100%;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: flex-start;      
+    align-items: flex-start;
   }
 
-  .filterbutton  {
+  .filterbutton {
     margin-top: 10px;
     flex-direction: column;
+    margin-left: 0;
   }
 
-  #Rom, #Anim {
+  #Rom,
+  #Anim {
     margin-top: 10px;
     margin-left: 0px;
   }
-  
+
   #Fam {
     position: absolute;
-    top: 47%;
-    right: 12%;
+    top: 57%;
+    right: 10%;
   }
 
   .ibutton {
@@ -871,7 +872,7 @@ nav li:hover {
 
   #hebpop {
     display: flex;
-    flex-direction: column-reverse;  
+    flex-direction: column-reverse;
   }
 
   #pop {
@@ -879,22 +880,21 @@ nav li:hover {
     padding: 20px;
     border-radius: 0%;
   }
-  
+
   #heb {
     width: 100%;
     background-color: white;
     border-radius: 0%;
-    padding: 20px; 
+    padding: 20px;
   }
 
-  #allslot
-  {
+  #allslot {
     flex-direction: column;
   }
 
   #slot1 {
     width: 100%;
-    height: 200px;    
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
   }
 
@@ -904,37 +904,37 @@ nav li:hover {
 
   #slot2 {
     width: 100%;
-    height: 200px;    
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
   }
 
   #slot2 a {
     height: 60%;
   }
- 
+
   #slot3 {
     width: 100%;
-    height: 200px;    
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
   }
 
   #slot3 a {
     height: 60%;
   }
-  
+
   #slot4 {
     width: 100%;
-    height: 200px;    
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
   }
 
   #slot4 a {
     height: 60%;
   }
-  
+
   #slot5 {
     width: 100%;
-    height: 200px;    
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
   }
 
@@ -944,7 +944,7 @@ nav li:hover {
 
   #slot6 {
     width: 100%;
-    height: 200px;    
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
   }
 
@@ -953,16 +953,20 @@ nav li:hover {
   }
 
   #act {
-   padding: 20px;
+    padding: 20px;
   }
-  
+
+  #act p {
+    padding-top: 6px;
+  }
+
   #actblock {
     flex-direction: column;
   }
 
   #slot10 {
     width: 100%;
-    height: 200px;    
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
   }
 
@@ -983,14 +987,14 @@ nav li:hover {
   }
 
   #slot11 {
-    height: 200px;  
-    box-shadow: 1px 1px 1px 1px;  
+    height: 200px;
+    box-shadow: 1px 1px 1px 1px;
   }
 
   #slot11 a {
     height: 70%;
   }
-  
+
   #slot11 p {
     margin-left: 10px;
     height: 100%;
@@ -998,15 +1002,15 @@ nav li:hover {
   }
 
   #slot12 {
-    height: 200px;  
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
-    margin-top: 20px;  
+    margin-top: 20px;
   }
 
   #slot12 a {
     height: 70%;
   }
-  
+
   #slot12 p {
     margin-left: 10px;
     height: 100%;
@@ -1015,7 +1019,7 @@ nav li:hover {
 
   #slot13 {
     width: 100%;
-    height: 200px;    
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
     margin-top: 20px;
   }
@@ -1037,14 +1041,14 @@ nav li:hover {
   }
 
   #slot14 {
-    height: 200px;  
-    box-shadow: 1px 1px 1px 1px;  
+    height: 200px;
+    box-shadow: 1px 1px 1px 1px;
   }
 
   #slot14 a {
     height: 70%;
   }
-  
+
   #slot14 p {
     margin-left: 10px;
     height: 100%;
@@ -1052,15 +1056,15 @@ nav li:hover {
   }
 
   #slot15 {
-    height: 200px;  
+    height: 200px;
     box-shadow: 1px 1px 1px 1px;
-    margin-top: 20px;  
+    margin-top: 20px;
   }
 
   #slot15 a {
     height: 70%;
   }
-  
+
   #slot15 p {
     margin-left: 10px;
     height: 100%;
@@ -1070,6 +1074,6 @@ nav li:hover {
   footer {
     display: block;
     padding: 50px 0 50px;
-    padding-left: 5%;    
+    padding-left: 5%;
   }
 }
