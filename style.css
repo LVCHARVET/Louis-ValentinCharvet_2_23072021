@@ -214,6 +214,7 @@ button {
   background-color: white;
   border: 3px solid white;
   border-radius: 10px;
+  box-shadow: grey 2px 2px 2px;
   margin-bottom: 30px;
 }
 
@@ -244,6 +245,7 @@ button {
   background-color: white;
   border: 3px solid white;
   border-radius: 10px;
+  box-shadow: grey 2px 2px 2px;
   margin-bottom: 30px;
 }
 
@@ -274,6 +276,7 @@ button {
   background-color: white;
   border: 3px solid white;
   border-radius: 10px;
+  box-shadow: grey 2px 2px 2px;
   margin-bottom: 30px;
 }
 
@@ -304,6 +307,7 @@ button {
   background-color: white;
   border: 3px solid white;
   border-radius: 10px;
+  box-shadow: grey 2px 2px 2px;
   margin-bottom: 30px;
 }
 
@@ -333,6 +337,7 @@ button {
   height: 200px;
   background-color: white;
   border: 3px solid white;
+  box-shadow: grey 2px 2px 2px;
   border-radius: 10px;
   margin-bottom: 30px;
 }
@@ -364,6 +369,7 @@ button {
   background-color: white;
   border: 3px solid white;
   border-radius: 10px;
+  box-shadow: grey 2px 2px 2px;
   margin-bottom: 30px;
 }
 
@@ -410,6 +416,7 @@ button {
   background-color: white;
   border: 3px solid white;
   border-radius: 10px;
+  box-shadow: grey 2px 2px 2px;
   margin: 10px 0 20px;
   display: flex;
 }
@@ -454,6 +461,7 @@ button {
   height: 150px;
   background-color: white;
   border: 3px solid white;
+  box-shadow: grey 2px 2px 2px;
   border-radius: 10px;
   margin: 10px 0 20px;
   display: flex;
@@ -494,6 +502,7 @@ button {
   background-color: white;
   border: 3px solid white;
   border-radius: 10px;
+  box-shadow: grey 2px 2px 2px;
   margin: 10px 0;
   display: flex;
 }
@@ -547,7 +556,7 @@ button {
   height: 500px;
   background-color: white;
   border-radius: 20px;
-  box-shadow: black 1px 1px 1px;
+  box-shadow: #f2f2f2 3px 3px 3px;
 }
 
 #slot10 a {
@@ -583,7 +592,7 @@ button {
   height: 60%;
   background-color: white;
   border-radius: 20px;
-  box-shadow: black 1px 1px 1px;
+  box-shadow: #f2f2f2 3px 3px 3px;
 }
 
 #slot11 a {
@@ -609,7 +618,7 @@ button {
   height: 35%;
   background-color: white;
   border-radius: 20px;
-  box-shadow: black 1px 1px 1px;
+  box-shadow: #f2f2f2 3px 3px 3px;
 }
 
 #slot12 a {
@@ -635,7 +644,7 @@ button {
   height: 500px;
   background-color: white;
   border-radius: 20px;
-  box-shadow: black 1px 1px 1px;
+  box-shadow: #f2f2f2 3px 3px 3px;
 }
 
 #slot13 a {
@@ -671,7 +680,7 @@ button {
   height: 47.5%;
   background-color: white;
   border-radius: 20px;
-  box-shadow: black 1px 1px 1px;
+  box-shadow: #f2f2f2 3px 3px 3px;
 }
 
 #slot14 a {
@@ -697,7 +706,7 @@ button {
   height: 47.5%;
   background-color: white;
   border-radius: 20px;
-  box-shadow: black 1px 1px 1px;
+  box-shadow: #f2f2f2 3px 3px 3px;
 }
 
 #slot15 a {
@@ -895,7 +904,7 @@ nav li:hover {
   #slot1 {
     width: 100%;
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
   }
 
   #slot1 a {
@@ -905,7 +914,7 @@ nav li:hover {
   #slot2 {
     width: 100%;
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
   }
 
   #slot2 a {
@@ -915,7 +924,7 @@ nav li:hover {
   #slot3 {
     width: 100%;
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
   }
 
   #slot3 a {
@@ -925,7 +934,7 @@ nav li:hover {
   #slot4 {
     width: 100%;
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
   }
 
   #slot4 a {
@@ -935,7 +944,7 @@ nav li:hover {
   #slot5 {
     width: 100%;
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
   }
 
   #slot5 a {
@@ -945,7 +954,7 @@ nav li:hover {
   #slot6 {
     width: 100%;
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
   }
 
   #slot6 a {
@@ -967,7 +976,7 @@ nav li:hover {
   #slot10 {
     width: 100%;
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
   }
 
   #slot10 a {
@@ -988,7 +997,7 @@ nav li:hover {
 
   #slot11 {
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
   }
 
   #slot11 a {
@@ -1003,7 +1012,7 @@ nav li:hover {
 
   #slot12 {
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
     margin-top: 20px;
   }
 
@@ -1020,7 +1029,7 @@ nav li:hover {
   #slot13 {
     width: 100%;
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
     margin-top: 20px;
   }
 
@@ -1042,7 +1051,7 @@ nav li:hover {
 
   #slot14 {
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
   }
 
   #slot14 a {
@@ -1057,7 +1066,7 @@ nav li:hover {
 
   #slot15 {
     height: 200px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: grey 2px 2px 2px;
     margin-top: 20px;
   }
 
