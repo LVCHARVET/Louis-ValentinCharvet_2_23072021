@@ -1079,3 +1079,50 @@ nav li:hover {
     margin-bottom: 50px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  input {
+    width: auto;
+  }
+
+  .recher {
+    width: auto;
+  }
+
+  #filtres {
+    
+    width: 100%;
+  }
+
+  .filterbutton {
+    width: 100%;    
+    margin: 0px 0 60px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  #Anim {
+    position: absolute;
+    left: 35%;
+    top: 28%;
+  }
+
+  #hebpop {
+    display: block;
+  }
+
+  #heb {
+    width: 100%;
+  } 
+
+  #pop {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #act p {
+    padding: 5px;
+    text-align: center;
+  }
+}
