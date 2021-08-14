@@ -114,7 +114,7 @@ button {
 }
 
 .filterbutton {
-  display: flex;  
+  display: flex;
 }
 
 #filtres p {
@@ -793,15 +793,15 @@ nav li:hover {
   #tête {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;  
+    margin-top: 20px;
   }
 
   #tête img {
     margin-left: 20px;
-  } 
+  }
 
   nav {
-    order: 3;  
+    order: 3;
   }
 
   nav ul {
@@ -813,7 +813,7 @@ nav li:hover {
     text-align: center;
   }
 
-  #inscrire {    
+  #inscrire {
     position: absolute;
     top: 3%;
     right: 3%;
@@ -822,7 +822,6 @@ nav li:hover {
   nav a {
     font-size: 18px;
   }
-
 
   nav li:hover {
     border-bottom: solid #0065fc 2px;
@@ -862,21 +861,18 @@ nav li:hover {
   .filterbutton {
     margin-top: 10px;
     flex-wrap: wrap;
-  
   }
 
   #Rom,
   #Anim {
-    margin-top: 10px;  
+    margin-top: 10px;
   }
-
-  
 
   .ibutton {
     font-size: 10px;
     position: relative;
     bottom: 10px;
-    border-radius: 50%;    
+    border-radius: 50%;
   }
 
   #hebpop {
@@ -1103,7 +1099,7 @@ nav li:hover {
 
   #filtres {
     width: 100%;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
   }
 
   .filtertitle {
@@ -1112,11 +1108,14 @@ nav li:hover {
 
   .filterbutton {
     width: 100%;
-    display: flex;  
-    flex-wrap: wrap;  
-  }  
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-  #Eco, #Fam, #Rom, #Anim {
+  #Eco,
+  #Fam,
+  #Rom,
+  #Anim {
     margin: 0 16px 16px 0;
   }
 
