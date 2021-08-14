@@ -1090,12 +1090,11 @@ nav li:hover {
   }
 
   #filtres {
-    
     width: 100%;
   }
 
   .filterbutton {
-    width: 100%;    
+    width: 100%;
     margin: 0px 0 60px 0;
     display: flex;
     justify-content: space-around;
@@ -1114,7 +1113,7 @@ nav li:hover {
 
   #heb {
     width: 100%;
-  } 
+  }
 
   #pop {
     width: 100%;
@@ -1123,7 +1122,7 @@ nav li:hover {
 
   #act p {
     padding: 5px;
-    text-align: center;    
+    text-align: center;
   }
 
   footer li {
@@ -1136,6 +1135,5 @@ nav li:hover {
 
   #assist {
     padding-left: 70px;
-  }  
-
+  }
 }
