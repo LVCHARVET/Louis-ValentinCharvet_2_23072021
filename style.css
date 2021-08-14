@@ -24,6 +24,11 @@ p {
   margin: 0 0 10px;
 }
 
+#logo {
+  flex: 1;
+  margin-top: 30px;
+}
+
 nav {
   display: flex;
 }
@@ -34,13 +39,13 @@ nav ul {
 }
 
 nav li {
-  padding: 20px;
+  padding: 40px;
 }
 
 #inscrire {
   font-weight: bold;
   color: #0065fc;
-  padding: 20px;
+  padding: 40px;
   font-size: 20px;
 }
 
@@ -62,8 +67,8 @@ input {
   border: none;
   font-weight: bold;
   font-size: 17px;
-  width: 17%;
-  padding-left: 1.5%;
+  width: 230px;
+  padding-left: 15px;
 }
 
 form .mark {
@@ -87,7 +92,7 @@ button {
   border: none;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
-  width: 10%;
+  width: 130px;
 }
 
 .search {
@@ -100,20 +105,21 @@ button {
   display: flex;
 
   align-items: center;
-  width: 60%;
+
   margin-top: 20px;
 }
 
-#filtres p {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  font-weight: bold;
+.filtertitle {
+  margin-right: 20px;
 }
 
 .filterbutton {
-  display: flex;
-  margin-left: 20px;
+  display: flex;  
+}
+
+#filtres p {
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 #filtres .fas {
@@ -124,41 +130,47 @@ button {
   justify-content: center;
   align-items: center;
   width: 50px;
+  height: 50px;
 }
 
 #Eco {
   display: flex;
+  align-items: center;
   border: solid #f2f2f2 1px;
   border-radius: 50px;
   height: 50px;
-  width: 160px;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
 #Fam {
   display: flex;
+  align-items: center;
   border: solid #f2f2f2 1px;
   border-radius: 50px;
   height: 50px;
-  width: 130px;
-  margin-left: 20px;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
 #Rom {
   display: flex;
+  align-items: center;
   border: solid #f2f2f2 1px;
   border-radius: 50px;
   height: 50px;
-  width: 160px;
-  margin-left: 20px;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
 #Anim {
   display: flex;
+  align-items: center;
   border: solid #f2f2f2 1px;
   border-radius: 50px;
   height: 50px;
-  width: 205px;
-  margin-left: 20px;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
 /*Informations*/
@@ -769,42 +781,48 @@ a:hover {
 }
 
 nav li:hover {
-  border-top: solid #0065fc 3px;
+  border-top: solid #0065fc 2px;
+  padding-top: 38px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 750px) {
   #main {
     margin: 0;
   }
+
   #tête {
-    flex-wrap: wrap;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;  
   }
 
   #tête img {
     margin-left: 20px;
+  } 
+
+  nav {
+    order: 3;  
   }
 
-  #inscrire {
-    position: absolute;
-    right: 2%;
-    top: 2%;
-    font-size: 18px;
+  nav ul {
+    width: 100%;
   }
 
   nav li {
-    width: 186.5px;
-    margin: 10px 0 10px;
+    width: 50%;
+    text-align: center;
+  }
+
+  #inscrire {    
+    position: absolute;
+    top: 3%;
+    right: 3%;
   }
 
   nav a {
     font-size: 18px;
-    margin-left: 20px;
   }
 
-  .navact {
-    margin-left: 40px;
-  }
 
   nav li:hover {
     border-bottom: solid #0065fc 2px;
@@ -843,28 +861,22 @@ nav li:hover {
 
   .filterbutton {
     margin-top: 10px;
-    flex-direction: column;
-    margin-left: 0;
+    flex-wrap: wrap;
+  
   }
 
   #Rom,
   #Anim {
-    margin-top: 10px;
-    margin-left: 0px;
+    margin-top: 10px;  
   }
 
-  #Fam {
-    position: absolute;
-    top: 57%;
-    right: 10%;
-  }
+  
 
   .ibutton {
     font-size: 10px;
     position: relative;
     bottom: 10px;
-    border-radius: 50%;
-    width: 11%;
+    border-radius: 50%;    
   }
 
   #hebpop {
@@ -1080,7 +1092,7 @@ nav li:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) and (min-width: 750px) {
   input {
     width: auto;
   }
@@ -1091,20 +1103,21 @@ nav li:hover {
 
   #filtres {
     width: 100%;
+    flex-wrap: wrap;    
+  }
+
+  .filtertitle {
+    margin-bottom: 10px;
   }
 
   .filterbutton {
     width: 100%;
-    margin: 0px 0 60px 0;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
+    display: flex;  
+    flex-wrap: wrap;  
+  }  
 
-  #Anim {
-    position: absolute;
-    left: 35%;
-    top: 28%;
+  #Eco, #Fam, #Rom, #Anim {
+    margin: 0 16px 16px 0;
   }
 
   #hebpop {
