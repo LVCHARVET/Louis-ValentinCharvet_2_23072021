@@ -847,6 +847,10 @@ nav li:hover {
     margin-left: 0;
   }
 
+  #Anim {
+    position: static !important;
+  }
+
   #Rom,
   #Anim {
     margin-top: 10px;
