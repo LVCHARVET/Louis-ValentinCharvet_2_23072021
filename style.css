@@ -1123,6 +1123,19 @@ nav li:hover {
 
   #act p {
     padding: 5px;
-    text-align: center;
+    text-align: center;    
   }
+
+  footer li {
+    font-size: 13px;
+  }
+
+  #heberg {
+    padding-left: 50px;
+  }
+
+  #assist {
+    padding-left: 70px;
+  }  
+
 }
