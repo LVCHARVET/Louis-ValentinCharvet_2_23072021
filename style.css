@@ -93,6 +93,7 @@ button {
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
   width: 130px;
+  cursor: pointer;
 }
 
 .search {
@@ -103,10 +104,8 @@ button {
 
 #filtres {
   display: flex;
-
   align-items: center;
-
-  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .filtertitle {
@@ -143,6 +142,11 @@ button {
   padding-right: 10px;
 }
 
+#Eco:hover {
+  color: #0065fc;
+  cursor: pointer;
+}
+
 #Fam {
   display: flex;
   align-items: center;
@@ -151,6 +155,11 @@ button {
   height: 50px;
   margin-right: 10px;
   padding-right: 10px;
+}
+
+#Fam:hover {
+  color: #0065fc;
+  cursor: pointer;
 }
 
 #Rom {
@@ -163,6 +172,11 @@ button {
   padding-right: 10px;
 }
 
+#Rom:hover {
+  color: #0065fc;
+  cursor: pointer;
+}
+
 #Anim {
   display: flex;
   align-items: center;
@@ -171,6 +185,11 @@ button {
   height: 50px;
   margin-right: 10px;
   padding-right: 10px;
+}
+
+#Anim:hover {
+  color: #0065fc;
+  cursor: pointer;
 }
 
 /*Informations*/
@@ -204,6 +223,11 @@ button {
   margin-top: 30px;
 }
 
+#hebpop a:hover {
+  color: black;
+  font-weight: normal;
+}
+
 /*Hébergements à Marseille*/
 
 #heb {
@@ -230,13 +254,10 @@ button {
   margin-bottom: 30px;
 }
 
-#slot1 a {
-  display: block;
+#slot1 img {
   width: 100%;
   height: 60%;
-  background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -244,9 +265,8 @@ button {
 #text1 p,
 #text1 strong {
   width: 100%;
-  padding: 8px 0 0 8px;
+  padding: 6px 0 0 8px;
   font-size: 15px;
-  text-overflow: ellipsis;
 }
 
 #slot2 {
@@ -259,13 +279,10 @@ button {
   margin-bottom: 30px;
 }
 
-#slot2 a {
-  display: block;
+#slot2 img {
   width: 100%;
   height: 60%;
-  background-image: url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -273,9 +290,8 @@ button {
 #text2 p,
 #text2 strong {
   width: 100%;
-  padding: 8px 0 0 8px;
+  padding: 6px 0 0 8px;
   font-size: 15px;
-  text-overflow: ellipsis;
 }
 
 #slot3 {
@@ -288,13 +304,10 @@ button {
   margin-bottom: 30px;
 }
 
-#slot3 a {
-  display: block;
+#slot3 img {
   width: 100%;
   height: 60%;
-  background-image: url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -302,9 +315,8 @@ button {
 #text3 p,
 #text3 strong {
   width: 100%;
-  padding: 8px 0 0 8px;
+  padding: 6px 0 0 8px;
   font-size: 15px;
-  text-overflow: ellipsis;
 }
 
 #slot4 {
@@ -317,13 +329,10 @@ button {
   margin-bottom: 30px;
 }
 
-#slot4 a {
-  display: block;
+#slot4 img {
   width: 100%;
   height: 60%;
-  background-image: url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -331,9 +340,8 @@ button {
 #text4 p,
 #text4 strong {
   width: 100%;
-  padding: 8px 0 0 8px;
+  padding: 6px 0 0 8px;
   font-size: 15px;
-  text-overflow: ellipsis;
 }
 
 #slot5 {
@@ -346,13 +354,10 @@ button {
   margin-bottom: 30px;
 }
 
-#slot5 a {
-  display: block;
+#slot5 img {
   width: 100%;
   height: 60%;
-  background-image: url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -360,9 +365,8 @@ button {
 #text5 p,
 #text5 strong {
   width: 100%;
-  padding: 8px 0 0 8px;
+  padding: 6px 0 0 8px;
   font-size: 15px;
-  text-overflow: ellipsis;
 }
 
 #slot6 {
@@ -375,13 +379,10 @@ button {
   margin-bottom: 30px;
 }
 
-#slot6 a {
-  display: block;
+#slot6 img {
   width: 100%;
   height: 60%;
-  background-image: url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -389,9 +390,8 @@ button {
 #text6 p,
 #text6 strong {
   width: 100%;
-  padding: 8px 0 0 8px;
+  padding: 6px 0 0 8px;
   font-size: 15px;
-  text-overflow: ellipsis;
 }
 
 /*Les plus populaires*/
@@ -421,13 +421,10 @@ button {
   display: flex;
 }
 
-#slot7 a {
-  display: inline-block;
+#slot7 img {
   width: 35%;
   height: 100%;
-  background-image: url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -467,13 +464,11 @@ button {
   display: flex;
 }
 
-#slot8 a {
+#slot8 img {
   display: inline-block;
   width: 35%;
   height: 100%;
-  background-image: url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -507,13 +502,11 @@ button {
   display: flex;
 }
 
-#slot9 a {
+#slot9 img {
   display: inline-block;
-  width: 35%;
+  width: 38%;
   height: 100%;
-  background-image: url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -781,8 +774,8 @@ a:hover {
 }
 
 nav li:hover {
-  border-top: solid #0065fc 2px;
-  padding-top: 38px;
+  border-top: solid #0065fc 3px;
+  padding-top: 37px;
 }
 
 @media screen and (max-width: 750px) {
@@ -858,14 +851,18 @@ nav li:hover {
     align-items: flex-start;
   }
 
+  .filtertitle {
+    margin-bottom: 10px;
+  }
+
   .filterbutton {
-    margin-top: 10px;
     flex-wrap: wrap;
   }
 
-  #Rom,
-  #Anim {
-    margin-top: 10px;
+  #Eco,
+  #Fam,
+  #Rom {
+    margin-bottom: 10px;
   }
 
   .ibutton {
@@ -1135,10 +1132,6 @@ nav li:hover {
   #act p {
     padding: 5px;
     text-align: center;
-  }
-
-  footer li {
-    font-size: 13px;
   }
 
   #heberg {
