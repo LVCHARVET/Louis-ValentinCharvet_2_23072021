@@ -18,7 +18,7 @@ p {
 
 /* Entête */
 
-#tête {
+#tete {
   display: flex;
   justify-content: space-between;
   margin: 0 0 10px;
@@ -132,7 +132,7 @@ button {
   height: 50px;
 }
 
-#Eco {
+#eco {
   display: flex;
   align-items: center;
   border: solid #f2f2f2 1px;
@@ -142,12 +142,12 @@ button {
   padding-right: 10px;
 }
 
-#Eco:hover {
+#eco:hover {
   color: #0065fc;
   cursor: pointer;
 }
 
-#Fam {
+#fam {
   display: flex;
   align-items: center;
   border: solid #f2f2f2 1px;
@@ -157,12 +157,12 @@ button {
   padding-right: 10px;
 }
 
-#Fam:hover {
+#fam:hover {
   color: #0065fc;
   cursor: pointer;
 }
 
-#Rom {
+#rom {
   display: flex;
   align-items: center;
   border: solid #f2f2f2 1px;
@@ -172,12 +172,12 @@ button {
   padding-right: 10px;
 }
 
-#Rom:hover {
+#rom:hover {
   color: #0065fc;
   cursor: pointer;
 }
 
-#Anim {
+#anim {
   display: flex;
   align-items: center;
   border: solid #f2f2f2 1px;
@@ -187,7 +187,7 @@ button {
   padding-right: 10px;
 }
 
-#Anim:hover {
+#anim:hover {
   color: #0065fc;
   cursor: pointer;
 }
@@ -783,13 +783,13 @@ nav li:hover {
     margin: 0;
   }
 
-  #tête {
+  #tete {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
   }
 
-  #tête img {
+  #tete img {
     margin-left: 20px;
   }
 
@@ -859,9 +859,9 @@ nav li:hover {
     flex-wrap: wrap;
   }
 
-  #Eco,
-  #Fam,
-  #Rom {
+  #eco,
+  #fam,
+  #rom {
     margin-bottom: 10px;
   }
 
@@ -1109,10 +1109,10 @@ nav li:hover {
     flex-wrap: wrap;
   }
 
-  #Eco,
-  #Fam,
-  #Rom,
-  #Anim {
+  #eco,
+  #fam,
+  #rom,
+  #anim {
     margin: 0 16px 16px 0;
   }
 
