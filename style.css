@@ -778,7 +778,7 @@ nav li:hover {
   padding-top: 37px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   #main {
     margin: 0;
   }
@@ -1085,7 +1085,7 @@ nav li:hover {
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 750px) {
+@media screen and (max-width: 1200px) and (min-width: 800px) {
   input {
     width: auto;
   }
